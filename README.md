@@ -5,7 +5,8 @@ Fully DMA-driven monochrome VGA signal generator on STM32F411
 
 This repository contains a **800X600 72Hz 1bit** VGA signal generator for **STM32F411**, implemented without interrupts.
 Video timing, pixel streaming, and buffer updates are handled using **timers, SPI, and DMA chaining**.
-
+Demo code given generates a rotating cube. [video](https://youtu.be/Iwi52jc2RiM?si=o8TMD0Cmp-LbhRFW)
+ 
 ---
 
 
