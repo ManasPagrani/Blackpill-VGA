@@ -40,8 +40,8 @@ uint16_t* vga_setup(void);
 
 ## Build & Usage
 
-1. Add the source files to an STM32 project
-2.Ensure system clocks are running at 100MHz preferably sourced from an external crystal 
+1. Add the source files to an STM32 project.
+2. Ensure system and peripheral clocks are running at 100MHz preferably sourced from an external crystal.
 3. Call `vga_setup()` once from `main()`
 4. Write pixel data directly to the returned framebuffer
 
