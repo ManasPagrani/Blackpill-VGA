@@ -13,7 +13,7 @@
 uint16_t* vga_setup(void)
 {
 	uint16_t* buffer=malloc(30050*sizeof(uint16_t));
-	  	for(int i=0;i<30050;i++){
+	  	for(int i=30000;i<30050;i++){
 	  				buffer[i]=0;
 	  	}
 	  	for(int i=0;i<30000;i++){
